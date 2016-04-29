@@ -18,7 +18,11 @@ module.exports = {
         'avoidEscape': true,
         'allowTemplateLiterals': true
       }
-    ]
+    ],
 
+    // http://eslint.org/docs/rules/comma-dangle
+    'comma-dangle': [
+      2, 'never'
+    ]
   }
 }
