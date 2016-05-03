@@ -23,7 +23,11 @@ module.exports = {
         'avoidEscape': true,
         'allowTemplateLiterals': true
       }
-    ]
+    ],
 
+    // http://eslint.org/docs/rules/quotes
+    "no-console": [
+      0
+    ]
   }
 };
