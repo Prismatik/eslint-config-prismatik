@@ -7,7 +7,7 @@ Prismatik's eslint configurations
 npm install --save-dev eslint-config-prismatik
 ```
 
-And use this `.eslint` file.
+And use this `.eslintrc` file.
 
 ```
 {
