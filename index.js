@@ -28,6 +28,9 @@ module.exports = {
     // http://eslint.org/docs/rules/comma-dangle
     'comma-dangle': [
       2, 'never'
-    ]
+    ],
+
+    // http://eslint.org/docs/rules/prefer-arrow-callback
+    'prefer-arrow-callback': 1
   }
 };
