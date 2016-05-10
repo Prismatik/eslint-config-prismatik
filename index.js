@@ -50,5 +50,10 @@ module.exports = {
     ],
 
     'mocha/no-exclusive-tests': 'error'
+      2, 'never'
+    ]
+
+    // http://eslint.org/docs/rules/func-names
+    'func-names': 0
   }
 };
