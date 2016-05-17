@@ -28,6 +28,14 @@ module.exports = {
     // http://eslint.org/docs/rules/comma-dangle
     'comma-dangle': [
       2, 'never'
+    ],
+
+    // http://eslint.org/docs/rules/one-var
+    'one-var': [
+      0
+    ],
+    'one-var-declaration-per-line': [
+      0
     ]
   }
 };
