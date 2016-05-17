@@ -1,18 +1,19 @@
 # eslint-config-prismatik
 Prismatik's eslint configurations
 
-## Install
+## Getting started
 
 ```
 npm install --save-dev eslint-config-prismatik
 ```
 
-And use this `.eslintrc` file.
+Add `.eslintrc.json` to your project.
 
 ```
 {
   "extends": "prismatik",
   "rules": {
+    // project specific rules go here
   }
 }
 ```
