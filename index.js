@@ -28,6 +28,9 @@ module.exports = {
     // http://eslint.org/docs/rules/comma-dangle
     'comma-dangle': [
       2, 'never'
-    ]
+    ],
+
+    // http://eslint.org/docs/rules/global-require
+    'global-require': 0
   }
 };
