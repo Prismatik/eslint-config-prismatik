@@ -33,6 +33,11 @@ module.exports = {
     // http://eslint.org/docs/rules/no-shadow
     "no-shadow": [
       0
+    ],
+
+    // http://eslint.org/docs/rules/strict
+    'strict': [
+      0
     ]
   }
 };
