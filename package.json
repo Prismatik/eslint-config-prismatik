@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-prismatik",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Standard eslint config for Prismatik project",
   "main": "index.js",
   "scripts": {
