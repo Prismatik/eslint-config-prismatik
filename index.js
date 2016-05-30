@@ -1,8 +1,8 @@
 module.exports = {
   extends: 'eslint-config-airbnb',
   env: {
-    es6:   true,
-    node:  true,
+    es6: true,
+    node: true,
     mocha: true
   },
   rules: {
@@ -38,6 +38,11 @@ module.exports = {
     // http://eslint.org/docs/rules/strict
     'strict': [
       0
+    ]
+
+    // http://eslint.org/docs/rules/space-before-function-paren
+    'space-before-function-paren': [
+      2, { 'anonymous': 'never', 'named': 'never' }
     ]
   }
 };
