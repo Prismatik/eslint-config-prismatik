@@ -5,6 +5,9 @@ module.exports = {
     node:  true,
     mocha: true
   },
+  plugins: [
+    'mocha'
+  ],
   rules: {
 
     // http://eslint.org/docs/rules/no-use-before-define
@@ -38,6 +41,8 @@ module.exports = {
     // http://eslint.org/docs/rules/strict
     'strict': [
       0
-    ]
+    ],
+
+    'mocha/no-exclusive-tests': 'error'
   }
 };
