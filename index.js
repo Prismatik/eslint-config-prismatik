@@ -39,6 +39,11 @@ module.exports = {
       0
     ],
 
+    // http://eslint.org/docs/rules/no-param-reassign
+    "no-param-reassign": [
+      2, { "props": false }
+    ],
+
     // http://eslint.org/docs/rules/strict
     strict: [
       0
