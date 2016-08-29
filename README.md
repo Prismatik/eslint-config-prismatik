@@ -7,7 +7,7 @@ Prismatik's eslint configurations
 npm install --save-dev eslint-config-prismatik
 ```
 
-Add `.eslintrc.json` to your project.
+Add `.eslintrc` to your project.
 
 ```
 {

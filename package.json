@@ -4,7 +4,7 @@
   "description": "Standard eslint config for Prismatik project",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "eslint ./index.js"
   },
   "repository": {
     "type": "git",
@@ -21,11 +21,11 @@
   },
   "homepage": "https://github.com/Prismatik/eslint-config-prismatik#readme",
   "dependencies": {
-    "eslint": "^2.8.0",
-    "eslint-config-airbnb": "^8.0.0",
-    "eslint-plugin-import": "^1.6.0",
-    "eslint-plugin-jsx-a11y": "^1.0.3",
-    "eslint-plugin-mocha": "^3.0.0",
-    "eslint-plugin-react": "^5.0.1"
+    "eslint": "^3.4.0",
+    "eslint-config-airbnb": "^10.0.1",
+    "eslint-plugin-import": "^1.14.0",
+    "eslint-plugin-jsx-a11y": "^2.2.0",
+    "eslint-plugin-mocha": "^4.4.0",
+    "eslint-plugin-react": "^6.2.0"
   }
 }

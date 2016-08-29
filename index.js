@@ -9,7 +9,6 @@ module.exports = {
     'mocha'
   ],
   rules: {
-
     // http://eslint.org/docs/rules/no-use-before-define
     'no-use-before-define': [
       2,
@@ -40,8 +39,8 @@ module.exports = {
     ],
 
     // http://eslint.org/docs/rules/no-param-reassign
-    "no-param-reassign": [
-      2, { "props": false }
+    'no-param-reassign': [
+      2, { props: false }
     ],
 
     // http://eslint.org/docs/rules/strict
@@ -49,12 +48,10 @@ module.exports = {
       0
     ],
 
-    'mocha/no-exclusive-tests': [
-      2, 'never'
-    ]
+    'mocha/no-exclusive-tests': 'error',
 
     // http://eslint.org/docs/rules/func-names
-    'func-names': 0
+    'func-names': 0,
 
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/prefer-stateless-function.md
     'react/prefer-stateless-function': [
