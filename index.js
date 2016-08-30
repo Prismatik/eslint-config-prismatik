@@ -56,6 +56,13 @@ module.exports = {
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/prefer-stateless-function.md
     'react/prefer-stateless-function': [
       1
+    ],
+
+    'generator-star-spacing': [
+      'error', {
+        before: true,
+        after: false
+      }
     ]
   }
 };
