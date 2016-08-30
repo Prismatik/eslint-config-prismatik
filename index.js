@@ -58,6 +58,8 @@ module.exports = {
       1
     ],
 
+    'react/require-extension': 'off',
+
     'generator-star-spacing': [
       'error', {
         before: true,
