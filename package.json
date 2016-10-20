@@ -1,25 +1,25 @@
 {
-  "name": "eslint-config-prismatik",
+  "name": "eslint-config-shortlyster",
   "version": "2.2.0",
-  "description": "Standard eslint config for Prismatik project",
+  "description": "Standard eslint config for Shortlyster project",
   "main": "index.js",
   "scripts": {
     "test": "eslint ./index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Prismatik/eslint-config-prismatik.git"
+    "url": "git+https://github.com/Shortlyster/eslint-config-shortlyster.git"
   },
   "keywords": [
     "eslint",
     "eslintconfig"
   ],
-  "author": "Prismatik Pty. Ltd.",
+  "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Prismatik/eslint-config-prismatik/issues"
+    "url": "https://github.com/Shortlyster/eslint-config-shortlyster/issues"
   },
-  "homepage": "https://github.com/Prismatik/eslint-config-prismatik#readme",
+  "homepage": "https://github.com/Shortlyster/eslint-config-shortlyster#readme",
   "dependencies": {
     "eslint": "^3.4.0",
     "eslint-config-airbnb": "^10.0.1",
