@@ -3,9 +3,8 @@ Shortlyster's eslint configurations
 
 ## Getting started
 
-```
-refer to this github repo in you `package.json` dev dependencies.
-```
+Refer to this github repo in you `package.json` dev dependencies.
+
 ```
 "eslint-config-shortlyster" :
   { "type" : "git",
