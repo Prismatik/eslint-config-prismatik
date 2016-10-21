@@ -1,17 +1,23 @@
-# eslint-config-prismatik
-Prismatik's eslint configurations
+# eslint-config-shortlyster
+Shortlyster's eslint configurations
 
 ## Getting started
 
+Refer to this github repo in you `package.json` dev dependencies.
+
 ```
-npm install --save-dev eslint-config-prismatik
+"eslint-config-shortlyster" :
+  { "type" : "git",
+    "url" : "https://github.com/Shortlyster/eslint-config-shortlyster.git"
+  }
+
 ```
 
 Add `.eslintrc` to your project.
 
 ```
 {
-  "extends": "prismatik",
+  "extends": "shortlyster",
   "rules": {
     // project specific rules go here
   }
@@ -22,4 +28,4 @@ Add `.eslintrc` to your project.
 
 We extend from [AirBnb's rules](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb).
 
-Our exceptions can be found in [our config](https://github.com/Prismatik/eslint-config-prismatik/blob/master/index.js).
+Our exceptions can be found in [our config](https://github.com/Shortlyster/eslint-config-shortlyster/blob/master/index.js).
