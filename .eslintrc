@@ -1,3 +1,6 @@
 {
-  "extends": "./index.js"
+  "extends": "./index.js",
+  "rules": {
+    "jsx-a11y/href-no-hash": "off"
+  }
 }
