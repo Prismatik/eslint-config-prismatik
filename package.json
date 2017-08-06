@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-shortlyster",
-  "version": "2.3.0",
+  "version": "2.3.1",
   "description": "Standard eslint config for Shortlyster project",
   "main": "index.js",
   "scripts": {

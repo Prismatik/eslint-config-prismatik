@@ -65,6 +65,8 @@ module.exports = {
         before: true,
         after: false
       }
-    ]
+    ],
+
+    'jsx-a11y/href-no-hash': 'off'
   }
 };
