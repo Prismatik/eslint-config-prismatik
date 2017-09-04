@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-shortlyster",
-  "version": "2.3.1",
+  "version": "2.3.2",
   "description": "Standard eslint config for Shortlyster project",
   "main": "index.js",
   "scripts": {
@@ -21,12 +21,12 @@
   },
   "homepage": "https://github.com/Shortlyster/eslint-config-shortlyster#readme",
   "dependencies": {
-    "eslint": "^4.4.0",
+    "eslint": "^4.6.1",
     "eslint-config-airbnb": "^15.1.0",
-    "eslint-plugin-flowtype": "^2.35.0",
+    "eslint-plugin-flowtype": "^2.35.1",
     "eslint-plugin-import": "^2.7.0",
     "eslint-plugin-jsx-a11y": "^6.0.2",
     "eslint-plugin-mocha": "^4.11.0",
-    "eslint-plugin-react": "^7.1.0"
+    "eslint-plugin-react": "^7.3.0"
   }
 }
