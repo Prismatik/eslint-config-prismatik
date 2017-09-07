@@ -67,6 +67,10 @@ module.exports = {
       }
     ],
 
-    'jsx-a11y/href-no-hash': 'off'
+    'jsx-a11y/href-no-hash': 'off',
+
+    'no-multi-assign': 'off',
+    'arrow-parens': 'off',
+    'no-plusplus': 'off'
   }
 };
