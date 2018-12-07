@@ -4,7 +4,7 @@
   "description": "Standard eslint config for Shortlyster project",
   "main": "index.js",
   "scripts": {
-    "test": "eslint ./index.js"
+    "test": "eslint ./index.js --fix"
   },
   "repository": {
     "type": "git",
@@ -24,11 +24,8 @@
     "eslint": "^5.1.0",
     "eslint-config-airbnb": "^17.0.0",
     "eslint-config-prettier": "^3.1.0",
-    "eslint-plugin-import": "^2.7.0",
-    "eslint-plugin-jsx-a11y": "^6.0.2",
     "eslint-plugin-mocha": "^5.1.0",
     "eslint-plugin-prettier": "^2.3.1",
-    "eslint-plugin-react": "^7.3.0",
     "prettier": "^1.7.4"
   }
 }
