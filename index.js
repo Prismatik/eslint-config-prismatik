@@ -5,7 +5,7 @@ module.exports = {
     mocha: true,
   },
   plugins: ['mocha', 'prettier'],
-  extends: ['airbnb', 'prettier'],
+  extends: ['airbnb-base', 'prettier'],
   rules: {
     // http://eslint.org/docs/rules/quotes
     quotes: [
@@ -33,22 +33,13 @@ module.exports = {
       },
     ],
 
-    // http://eslint.org/docs/rules/no-shadow
     // http://eslint.org/docs/rules/no-param-reassign
     // http://eslint.org/docs/rules/no-use-before-define
-    'no-use-before-define': [
-      2,
-      {
-        functions: false,
-      },
-    ],
+    'no-confusing-arrow': ['error', { allowParens: false }],
+    'no-use-before-define': [2, { functions: false }],
     'no-param-reassign': [2, { props: false }],
-    'no-unused-expressions': 'off',
-    'no-confusing-arrow': 'off',
-    'no-mixed-operators': 'off',
     'no-await-in-loop': 'off',
     'no-multi-assign': 'off',
-    'no-else-return': 'off',
     'no-plusplus': 'off',
 
     'arrow-parens': 'off',
