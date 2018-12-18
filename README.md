@@ -8,7 +8,7 @@ Refer to this github repo in you `package.json` dev dependencies.
 ```
 "eslint-config-shortlyster" :
   { "type" : "git",
-    "url" : "https://github.com/Shortlyster/eslint-config-shortlyster.git"
+    "url" : "eslint-config-compono"
   }
 
 ```
@@ -17,7 +17,7 @@ Add `.eslintrc` to your project.
 
 ```
 {
-  "extends": "shortlyster",
+  "extends": "compono",
   "rules": {
     // project specific rules go here
   }
