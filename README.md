@@ -6,11 +6,7 @@ Shortlyster's eslint configurations
 Refer to this github repo in you `package.json` dev dependencies.
 
 ```
-"eslint-config-shortlyster" :
-  { "type" : "git",
-    "url" : "eslint-config-compono"
-  }
-
+npm add -D eslint-config-compono
 ```
 
 Add `.eslintrc` to your project.
