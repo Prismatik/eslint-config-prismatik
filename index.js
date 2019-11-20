@@ -18,7 +18,7 @@ module.exports = {
     ],
 
     // http://eslint.org/docs/rules/comma-dangle
-    'comma-dangle': [2, 'always-multiline'],
+    'comma-dangle': 'off',
 
     // http://eslint.org/docs/rules/strict
     strict: [0],
