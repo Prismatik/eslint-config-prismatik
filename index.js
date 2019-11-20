@@ -47,14 +47,7 @@ module.exports = {
     'arrow-parens': 'off',
     'func-names': 0,
 
-    'prettier/prettier': [
-      'error',
-      {
-        trailingComma: 'es5',
-        singleQuote: true,
-        printWidth: 100,
-      },
-    ],
+    'prettier/prettier': ['error', prettierConfig],
     'max-len': [
       'error',
       {
